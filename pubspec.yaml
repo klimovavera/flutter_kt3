@@ -1,0 +1,30 @@
+name: static_resources_app
+description: A new Flutter project with static resources
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/image1.png
+    - assets/images/image2.png
+    - assets/images/image3.png
+  
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/ofont.ru_Helvetica Neue.ttf
