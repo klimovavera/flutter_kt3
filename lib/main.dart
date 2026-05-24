@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 30),
-            // Картинка 1
+           
             Image.asset(
               'assets/images/image1.png',
               width: 200,
@@ -53,7 +53,7 @@ class MyHomePage extends StatelessWidget {
               },
             ),
             const SizedBox(height: 20),
-            // Картинка 2
+           
             Image.asset(
               'assets/images/image2.png',
               width: 200,
@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
               },
             ),
             const SizedBox(height: 20),
-            // Картинка 3
+          
             Image.asset(
               'assets/images/image3.png',
               width: 200,
